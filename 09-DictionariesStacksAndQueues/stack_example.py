@@ -8,6 +8,15 @@ is the first one to be removed. Think of a stack
 as a pile of plates — the last plate you place
 on the top is the first one you'll take off.
 """
+numbers = queue.LifoQueue
+
+numbers.put('2')
+numbers.put('3')
+numbers.put('7')
+numbers.put('4')
+numbers.put('1')
+numbers.put('9')
+numbers.put('8')
 
 # creates a stack
 cards = queue.LifoQueue()
